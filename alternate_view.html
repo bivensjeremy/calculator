@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt Calculator for The Odin Project</title>
+    <link rel="Alternate Stylesheet" href="alternatestylesheet.css" />
+  </head>
+  <header>
+    <h1>Alternate Basic Calculator for the Odin Project</h1>
+  </header>
+  <body>
+    <div id="inputcontainer">
+      <table>
+        <tr>
+          <th colspan="4"><input type="text" id="inputfield" /></th>
+        </tr>
+
+        <tr>
+          <td><button type="button" class="clear" id="accent">AC</button></td>
+          <td><button type="button" id="accent">+/-</button></td>
+          <td><button type="button" id="accent">%</button></td>
+          <td><button type="button" id="operator" class="divide">/</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" id="button" class="num7">7</button></td>
+          <td><button type="button" id="button" class="num8">8</button></td>
+          <td><button type="button" id="button" class="num9">9</button></td>
+          <td>
+            <button type="button" id="operator" class="multiply">x</button>
+          </td>
+        </tr>
+        <tr>
+          <td><button type="button" id="button" class="num4">4</button></td>
+          <td><button type="button" id="button" class="num5">5</button></td>
+          <td><button type="button" id="button" class="num6">6</button></td>
+          <td>
+            <button type="button" id="operator" class="subtract">-</button>
+          </td>
+        </tr>
+        <tr>
+          <td><button type="button" id="button" class="num1">1</button></td>
+          <td><button type="button" id="button" class="num2">2</button></td>
+          <td><button type="button" id="button" class="num3">3</button></td>
+          <td><button type="button" class="add" id="operator">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="button" id="button" class="num0">0</button>
+          </td>
+          <td><button type="button" id="button" class="decimal">.</button></td>
+          <td><button type="button" id="equals">=</button></td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button
+        type="button"
+        class="refresh2"
+        onclick="window.open('index.html')"
+      >
+        Original View
+      </button>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

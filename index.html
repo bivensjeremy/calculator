@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator for The Odin Project</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Basic Calculator for The Odin Project</h1>
+    </header>
+    <body>
+      <div id="calculatorContainer">
+        <div id="row">
+          <button type="button" id="button" class="clear">C</button>
+          <input type="text" id="inputfield" />
+        </div>
+        <div id="row">
+          <button type="button" id="button" class="num7">7</button>
+          <button type="button" id="button" class="num8">8</button>
+          <button type="button" id="button" class="num9">9</button>
+          <button type="button" id="button" class="divide">/</button>
+        </div>
+        <div id="row">
+          <button type="button" id="button" class="num4">4</button>
+          <button type="button" id="button" class="num5">5</button>
+          <button type="button" id="button" class="num6">6</button>
+          <button type="button" id="button" class="multiply">*</button>
+        </div>
+        <div id="row">
+          <button type="button" id="button" class="num1">1</button>
+          <button type="button" id="button" class="num2">2</button>
+          <button type="button" id="button" class="num3">3</button>
+          <button type="button" id="button" class="subtract">-</button>
+        </div>
+        <div id="row">
+          <button type="button" id="button" class="num0">0</button>
+          <button type="button" id="button" class="decimal">.</button>
+          <button type="button" id="button" class="add">+</button>
+          <button type="button" id="equals">=</button>
+        </div>
+      </div>
+      <div>
+        <button
+          type="button"
+          class="refresh"
+          onclick="window.open('alternate_view.html')"
+        >
+          Alternate Style
+        </button>
+      </div>
+    </body>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
